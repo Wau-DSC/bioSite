@@ -1,0 +1,17 @@
+html,body{margin:0;padding:0;color:#34744;background-color:#d5edeb}
+header{background-color:#82b3aa;margin:0;padding:0}
+header #subheader{background-color:#a9cac7}
+header *{margin:0;padding-left:2px}
+h1,h2{color:#2d3e3a}
+h2{font-style:italic}
+a{color:#2a538c}
+a:visited{color:#46698c}
+footer{background-color:#a5bfbd;position:absolute;bottom:0;width:100%}
+footer a{float:right;margin-right:5px}
+.gallery,.gallery-right{background-color:#fff}
+.gallery-right{float:right;margin-right:1em}
+.gallery-right img{display:block}
+.gallery img{height:30vh;max-height:400px}
+.gallery-right img{width:30vh;max-width:400px}
+.content{padding-top:0.75em;padding-left:0.5em}
+.content div{margin-bottom:4px}
