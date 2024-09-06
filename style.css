@@ -8,7 +8,7 @@ a{color:#2a538c}
 a:visited{color:#46698c}
 footer{background-color:#a5bfbd;position:absolute;bottom:0;width:100%}
 footer a{float:right;margin-right:5px}
-.gallery,.gallery-right{background-color:#fff}
+.gallery,.gallery-right{background-color:#fff;width:fit-content;padding:1px}
 .gallery-right{float:right;margin-right:1em}
 .gallery-right img{display:block}
 .gallery img{height:30vh;max-height:400px}
