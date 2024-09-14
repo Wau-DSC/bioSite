@@ -1,17 +1,22 @@
 html,body{margin:0;padding:0;color:#34744;background-color:#d5edeb}
 header{background-color:#82b3aa;margin:0;padding:0}
-header #subheader{background-color:#a9cac7}
-header *{margin:0;padding-left:2px}
+header #subheader{background-color:#a9cac7;clear:both}
+header *{margin:0;padding-left:2px;padding-top:2px}
 h1,h2{color:#2d3e3a}
+h1{font-size:3em;padding-top:calc(68px - 1em);}
 h2{font-style:italic}
-a{color:#2a538c}
+a{color:#2a538c;text-decoration:none}
 a:visited{color:#46698c}
+a:hover{color:#4a699c;text-decoration:underline}
 footer{background-color:#a5bfbd;position:absolute;bottom:0;width:100%}
 footer a{float:right;margin-right:5px}
 .gallery,.gallery-right{background-color:#fff;width:fit-content;padding:1px}
-.gallery-right{float:right;margin-right:1em}
+.gallery-right{float:right;margin-right:1.5em}
 .gallery-right img{display:block}
-.gallery img{height:30vh;max-height:400px}
-.gallery-right img{width:30vh;max-width:400px}
-.content{padding-top:0.75em;padding-left:0.5em}
+.gallery img{height:25vh;max-height:370px}
+.gallery-right img{width:20vw;max-width:210px}
+.content{padding-top:1em;padding-left:0.5em}
 .content div{margin-bottom:4px}
+#icon{float:right;margin-right:0.5em}
+#icon img{width:72px;height:72px}
+.about-image img{height:35vh;max-height:425px}
