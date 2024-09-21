@@ -21,5 +21,17 @@
  <footer>
    images not by myself are free cc0 images sourced from openclipart.org and/or freesvg.org
  </footer>
+ <script>
+   sh=document.getElementById("subheader").firstChild;
+   window.setInterval(
+      ()=>{
+         var text="";
+         for(var x=0;x<12;x++){
+            text+=String.fromCharCode(48+Math.floor(64*Math.random()));
+         }
+         sh.innerText=text;
+      },500
+   );
+ </script>
 </body>
 </html>
